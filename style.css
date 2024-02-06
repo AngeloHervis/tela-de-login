@@ -15,13 +15,14 @@ main {
   display: flex;
   flex-direction: column;
   padding: 15px 0px;
+  align-items: center;
   max-width: 414px;
   min-height: 100vh;
   gap: 12px;
   position: relative;
 }
 
-.blur {
+.brilho {
   width: 414px;
   height: 280px;
   background: #fff;
@@ -39,9 +40,11 @@ h1 {
   color: #ffffff;
 }
 
-.container-inputs {
+.inputs {
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 label {
@@ -51,21 +54,23 @@ label {
   letter-spacing: -0.408px;
   color: rgb(255, 255, 255, 0.6);
   margin-bottom: 4px;
+  margin-left: 4px;
 }
 
 input {
-  width: 342px;
+  width: 100%;
   height: 42px;
   margin-bottom: 8px;
   background: transparent;
   outline: none;
   border: none;
-  border-bottom: 1px solid rgb(255, 255, 255, 0.6);
+  border-bottom: 1px solid rgb(255, 255, 255, 0.14);
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
   letter-spacing: -0.24px;
   color: #ffffff;
+  padding-left: 4px;
 }
 
 input::placeholder {
@@ -73,5 +78,99 @@ input::placeholder {
   font-size: 17px;
   line-height: 20px;
   letter-spacing: -0.24px;
+  color: #ffffff;
+}
+
+.login {
+  margin-top: 20px;
+  width: 100%;
+  height: 68px;
+  background: #D93856;
+  font-size: 17px;
+  font-weight: 900;
+  border: none;
+  line-height: 3px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s ease;
+}
+
+.login:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.login:active {
+  opacity: 0.3;
+}
+
+i {
+  font-size: 22px;
+  font-weight: 900;
+  line-height: 3px;
+}
+
+.google {
+  width: 100%;
+  height: 68px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease;
+  background: rgba(255, 255, 255, 0.14);
+  font-weight: 900;
+  font-size: 17px;
+  line-height: 2px;
+  color: #ffffff;
+  gap: 12px;
+}
+
+.google:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.google:active {
+  opacity: 0.3;
+}
+
+.link {
+  margin-top: 20px;
+  position: relative;
+}
+
+a {
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+a::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  position: absolute;
+  background: #D93856;
+  bottom: -3px;
+  left: 0;
+  transition: 0.6s ease;
+}
+
+a:hover::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  background: #D93856;
+  bottom: -3px;
+  left: 0;
+}
+
+span {
   color: #ffffff;
 }
