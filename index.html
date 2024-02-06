@@ -5,13 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Login APP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <main>
+        <div class="blur"></div>
         <img src="img/login-img.svg" alt="homem com uma mala">
         <h1>Welcome Back 😃</h1>
-        <div>
+        <div class="container-inputs">
             <label for="email">Email</label>
             <input type="text" placeholder="Email">
             <label for="password">Password</label>
@@ -19,12 +25,11 @@
         </div>
         <div>
             <button>
-                Log in >
+                Log in <i class="bx bx-chevron-right"></i>
             </button>
             <button>
                 <img src="img/icon0google.svg" alt="Ícone do Google">
                 Log in with Google
-
             </button>
         </div>
         <a href="#">Newbie? Create Acoount</a>
