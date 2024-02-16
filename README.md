@@ -28,6 +28,3 @@ O Tela de Login é um projeto de uma página de login simples e responsiva. Este
 Angelo Hervis
 - GitHub: [AngeloHervis](https://github.com/AngeloHervis)
 - LinkedIn: [Angelo Hervis](https://www.linkedin.com/in/angelohervis/)
-
-## Licença
-Este projeto é licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
