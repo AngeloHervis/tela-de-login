@@ -1,7 +1,7 @@
 # Tela de Login
 
 <div style="display:flex; align-items:center; justify-content:center; margin-bottom:20px">
-<img src="" >
+<img src="img/projeto.png" >
 </div>
 
 ## Descrição
